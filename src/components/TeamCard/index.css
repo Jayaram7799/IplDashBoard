@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.team-card-container {
+  width: 350px;
+  height: fit-content;
+  background-color: #475569;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .team-card-container {
+    width: 280px;
+    margin-right: 30px;
+  }
+}
+
+.team-card-container:hover {
+  transform: scale(1.05); /* Slight scale on hover */
+}
+
+li {
+  list-style-type: none;
+}
+.team-banner {
+  width: 60px;
+  height: 70px;
+}
+.link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.team-name {
+  margin-top: 25px;
+}
